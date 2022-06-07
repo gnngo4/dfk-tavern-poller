@@ -1,0 +1,97 @@
+API_URL="https://defi-kingdoms-community-api-gateway-co06z8vi.uc.gateway.dev/graphql"
+REALMS = ["SER","CRY"]
+REALM_ID_OFFSET = {
+        "SER": 0,
+        "CRY": 1_000_000_000_000
+}
+QUERY_HERO_LENGTH = 1000
+QUERY_HERO_BASE = """
+        id
+        numberId
+        owner{
+            owner
+            name
+        }
+        statGenes
+        visualGenes
+        rarity
+        shiny
+        generation
+        firstName
+        lastName
+        shinyStyle
+        mainClass
+        subClass
+        summonedTime
+        nextSummonTime
+        summons
+        maxSummons
+        staminaFullAt
+        hpFullAt
+        mpFullAt
+        level
+        xp
+        currentQuest
+        sp
+        status
+        strength
+        intelligence
+        wisdom
+        luck
+        agility
+        vitality
+        endurance
+        dexterity
+        hp
+        mp
+        stamina
+        strengthGrowthP
+        intelligenceGrowthP
+        wisdomGrowthP
+        luckGrowthP
+        agilityGrowthP
+        vitalityGrowthP
+        enduranceGrowthP
+        dexterityGrowthP
+        strengthGrowthS
+        intelligenceGrowthS
+        wisdomGrowthS
+        luckGrowthS
+        agilityGrowthS
+        vitalityGrowthS
+        enduranceGrowthS
+        dexterityGrowthS
+        hpSmGrowth
+        hpRgGrowth
+        hpLgGrowth
+        mpSmGrowth
+        mpRgGrowth
+        mpLgGrowth
+        mining
+        gardening
+        foraging
+        fishing
+        profession
+        passive1
+        passive2
+        active1
+        active2
+        statBoost1
+        statBoost2
+        statsUnknown1
+        element
+        statsUnknown2
+        gender
+        headAppendage
+        backAppendage
+        background
+        hairStyle
+        hairColor
+        visualUnknown2
+        summonsRemaining
+        pjStatus
+        pjLevel
+        pjClaimStamp
+        network
+        originRealm 
+"""

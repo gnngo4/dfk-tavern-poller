@@ -1,0 +1,24 @@
+[2022-06-06 02:24:53,342] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: hero_info.hero_external_table_task manual__2022-06-06T02:08:02.896924+00:00 [queued]>
+[2022-06-06 02:24:53,410] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: hero_info.hero_external_table_task manual__2022-06-06T02:08:02.896924+00:00 [queued]>
+[2022-06-06 02:24:53,411] {taskinstance.py:1357} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-06 02:24:53,411] {taskinstance.py:1358} INFO - Starting attempt 1 of 2
+[2022-06-06 02:24:53,411] {taskinstance.py:1359} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-06 02:24:53,422] {taskinstance.py:1378} INFO - Executing <Task(BigQueryCreateExternalTableOperator): hero_external_table_task> on 2022-06-06 02:08:02.896924+00:00
+[2022-06-06 02:24:53,431] {standard_task_runner.py:52} INFO - Started process 3036 to run task
+[2022-06-06 02:24:53,435] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'hero_info', 'hero_external_table_task', 'manual__2022-06-06T02:08:02.896924+00:00', '--job-id', '14442', '--raw', '--subdir', 'DAGS_FOLDER/ingest_heroes.py', '--cfg-path', '/tmp/tmpoev_yefc', '--error-file', '/tmp/tmp6n8fstjj']
+[2022-06-06 02:24:53,436] {standard_task_runner.py:80} INFO - Job 14442: Subtask hero_external_table_task
+[2022-06-06 02:24:53,495] {task_command.py:370} INFO - Running <TaskInstance: hero_info.hero_external_table_task manual__2022-06-06T02:08:02.896924+00:00 [running]> on host 76384e2d8475
+[2022-06-06 02:24:53,654] {taskinstance.py:1570} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=hero_info
+AIRFLOW_CTX_TASK_ID=hero_external_table_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-06-06T02:08:02.896924+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-06-06T02:08:02.896924+00:00
+[2022-06-06 02:24:53,657] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-06-06 02:24:53,657] {base.py:68} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2022-06-06 02:24:54,094] {taskinstance.py:1396} INFO - Marking task as SUCCESS. dag_id=hero_info, task_id=hero_external_table_task, execution_date=20220606T020802, start_date=20220606T022453, end_date=20220606T022454
+[2022-06-06 02:24:54,129] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-06-06 02:24:54,186] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

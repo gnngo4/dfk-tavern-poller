@@ -1,0 +1,23 @@
+[2022-06-06 04:07:29,839] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: hero_info.format_to_parquet scheduled__2022-06-05T04:00:00+00:00 map_index=27 [queued]>
+[2022-06-06 04:07:30,080] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: hero_info.format_to_parquet scheduled__2022-06-05T04:00:00+00:00 map_index=27 [queued]>
+[2022-06-06 04:07:30,080] {taskinstance.py:1357} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-06 04:07:30,080] {taskinstance.py:1358} INFO - Starting attempt 1 of 2
+[2022-06-06 04:07:30,080] {taskinstance.py:1359} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-06 04:07:30,162] {taskinstance.py:1378} INFO - Executing <Mapped(_PythonDecoratedOperator): format_to_parquet> on 2022-06-05 04:00:00+00:00
+[2022-06-06 04:07:30,205] {standard_task_runner.py:52} INFO - Started process 7514 to run task
+[2022-06-06 04:07:30,232] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'hero_info', 'format_to_parquet', 'scheduled__2022-06-05T04:00:00+00:00', '--job-id', '14699', '--raw', '--subdir', 'DAGS_FOLDER/ingest_heroes.py', '--cfg-path', '/tmp/tmpoclic05q', '--map-index', '27', '--error-file', '/tmp/tmphzoi9sej']
+[2022-06-06 04:07:30,248] {standard_task_runner.py:80} INFO - Job 14699: Subtask format_to_parquet
+[2022-06-06 04:07:30,621] {task_command.py:370} INFO - Running <TaskInstance: hero_info.format_to_parquet scheduled__2022-06-05T04:00:00+00:00 map_index=27 [running]> on host 76384e2d8475
+[2022-06-06 04:07:33,919] {taskinstance.py:1570} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=hero_info
+AIRFLOW_CTX_TASK_ID=format_to_parquet
+AIRFLOW_CTX_EXECUTION_DATE=2022-06-05T04:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-06-05T04:00:00+00:00
+[2022-06-06 04:07:42,924] {python.py:173} INFO - Done. Returned value was: /opt/***/20220606_H04M07_HERO0000000027001.parquet
+[2022-06-06 04:07:43,429] {taskinstance.py:1396} INFO - Marking task as SUCCESS. dag_id=hero_info, task_id=format_to_parquet, map_index=27, execution_date=20220605T040000, start_date=20220606T040729, end_date=20220606T040743
+[2022-06-06 04:07:43,511] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-06-06 04:07:44,046] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

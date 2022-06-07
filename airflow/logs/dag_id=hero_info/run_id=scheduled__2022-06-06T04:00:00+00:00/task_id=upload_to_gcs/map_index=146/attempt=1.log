@@ -1,0 +1,23 @@
+[2022-06-07 04:10:03,719] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: hero_info.upload_to_gcs scheduled__2022-06-06T04:00:00+00:00 map_index=146 [queued]>
+[2022-06-07 04:10:03,822] {taskinstance.py:1160} INFO - Dependencies all met for <TaskInstance: hero_info.upload_to_gcs scheduled__2022-06-06T04:00:00+00:00 map_index=146 [queued]>
+[2022-06-07 04:10:03,822] {taskinstance.py:1357} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-07 04:10:03,823] {taskinstance.py:1358} INFO - Starting attempt 1 of 2
+[2022-06-07 04:10:03,823] {taskinstance.py:1359} INFO - 
+--------------------------------------------------------------------------------
+[2022-06-07 04:10:03,856] {taskinstance.py:1378} INFO - Executing <Mapped(_PythonDecoratedOperator): upload_to_gcs> on 2022-06-06 04:00:00+00:00
+[2022-06-07 04:10:03,883] {standard_task_runner.py:52} INFO - Started process 63580 to run task
+[2022-06-07 04:10:03,902] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'hero_info', 'upload_to_gcs', 'scheduled__2022-06-06T04:00:00+00:00', '--job-id', '15649', '--raw', '--subdir', 'DAGS_FOLDER/ingest_heroes.py', '--cfg-path', '/tmp/tmpd_h3w25s', '--map-index', '146', '--error-file', '/tmp/tmpehlt02v3']
+[2022-06-07 04:10:03,903] {standard_task_runner.py:80} INFO - Job 15649: Subtask upload_to_gcs
+[2022-06-07 04:10:04,056] {task_command.py:370} INFO - Running <TaskInstance: hero_info.upload_to_gcs scheduled__2022-06-06T04:00:00+00:00 map_index=146 [running]> on host 76384e2d8475
+[2022-06-07 04:10:04,193] {taskinstance.py:1570} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=hero_info
+AIRFLOW_CTX_TASK_ID=upload_to_gcs
+AIRFLOW_CTX_EXECUTION_DATE=2022-06-06T04:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-06-06T04:00:00+00:00
+[2022-06-07 04:10:04,428] {python.py:173} INFO - Done. Returned value was: None
+[2022-06-07 04:10:06,040] {taskinstance.py:1396} INFO - Marking task as SUCCESS. dag_id=hero_info, task_id=upload_to_gcs, map_index=146, execution_date=20220606T040000, start_date=20220607T041003, end_date=20220607T041006
+[2022-06-07 04:10:06,097] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-06-07 04:10:07,386] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

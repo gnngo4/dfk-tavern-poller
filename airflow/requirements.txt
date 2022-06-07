@@ -1,0 +1,7 @@
+apache-airflow-providers-google
+fastparquet
+pandas
+sqlalchemy
+psycopg2-binary
+glom
+pendulum

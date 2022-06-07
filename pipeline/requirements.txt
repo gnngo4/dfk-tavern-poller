@@ -1,0 +1,5 @@
+faust-streaming
+google-cloud
+google-cloud-bigquery
+web3
+confluent-kafka
