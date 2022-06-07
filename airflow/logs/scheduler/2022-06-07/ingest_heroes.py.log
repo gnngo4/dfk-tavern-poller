@@ -14228,3 +14228,248 @@
 [2022-06-07 17:24:48,878] {logging_mixin.py:115} INFO - [2022-06-07 17:24:48,877] {dag.py:2379} INFO - Sync 1 DAGs
 [2022-06-07 17:24:48,899] {logging_mixin.py:115} INFO - [2022-06-07 17:24:48,899] {dag.py:2923} INFO - Setting next_dagrun for hero_info to 2022-06-07T04:00:00+00:00, run_after=2022-06-08T04:00:00+00:00
 [2022-06-07 17:24:48,909] {processor.py:161} INFO - Processing /opt/airflow/dags/ingest_heroes.py took 0.697 seconds
+[2022-06-07 17:25:18,996] {processor.py:153} INFO - Started process (PID=100220) to work on /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:25:18,996] {processor.py:641} INFO - Processing file /opt/airflow/dags/ingest_heroes.py for tasks to queue
+[2022-06-07 17:25:18,997] {logging_mixin.py:115} INFO - [2022-06-07 17:25:18,997] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:25:19,629] {processor.py:651} INFO - DAG(s) dict_keys(['hero_info']) retrieved from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:25:19,651] {logging_mixin.py:115} INFO - [2022-06-07 17:25:19,650] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-07 17:25:19,671] {logging_mixin.py:115} INFO - [2022-06-07 17:25:19,671] {dag.py:2923} INFO - Setting next_dagrun for hero_info to 2022-06-07T04:00:00+00:00, run_after=2022-06-08T04:00:00+00:00
+[2022-06-07 17:25:19,681] {processor.py:161} INFO - Processing /opt/airflow/dags/ingest_heroes.py took 0.689 seconds
+[2022-06-07 17:25:49,750] {processor.py:153} INFO - Started process (PID=100244) to work on /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:25:49,751] {processor.py:641} INFO - Processing file /opt/airflow/dags/ingest_heroes.py for tasks to queue
+[2022-06-07 17:25:49,752] {logging_mixin.py:115} INFO - [2022-06-07 17:25:49,752] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:25:50,394] {processor.py:651} INFO - DAG(s) dict_keys(['hero_info']) retrieved from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:25:50,416] {logging_mixin.py:115} INFO - [2022-06-07 17:25:50,416] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-07 17:25:50,438] {logging_mixin.py:115} INFO - [2022-06-07 17:25:50,438] {dag.py:2923} INFO - Setting next_dagrun for hero_info to 2022-06-07T04:00:00+00:00, run_after=2022-06-08T04:00:00+00:00
+[2022-06-07 17:25:50,447] {processor.py:161} INFO - Processing /opt/airflow/dags/ingest_heroes.py took 0.702 seconds
+[2022-06-07 17:26:20,508] {processor.py:153} INFO - Started process (PID=100259) to work on /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:26:20,509] {processor.py:641} INFO - Processing file /opt/airflow/dags/ingest_heroes.py for tasks to queue
+[2022-06-07 17:26:20,509] {logging_mixin.py:115} INFO - [2022-06-07 17:26:20,509] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:26:21,144] {processor.py:651} INFO - DAG(s) dict_keys(['hero_info']) retrieved from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:26:21,166] {logging_mixin.py:115} INFO - [2022-06-07 17:26:21,166] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-07 17:26:21,186] {logging_mixin.py:115} INFO - [2022-06-07 17:26:21,186] {dag.py:2923} INFO - Setting next_dagrun for hero_info to 2022-06-07T04:00:00+00:00, run_after=2022-06-08T04:00:00+00:00
+[2022-06-07 17:26:21,195] {processor.py:161} INFO - Processing /opt/airflow/dags/ingest_heroes.py took 0.692 seconds
+[2022-06-07 17:29:11,843] {processor.py:153} INFO - Started process (PID=48) to work on /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:29:11,861] {processor.py:641} INFO - Processing file /opt/airflow/dags/ingest_heroes.py for tasks to queue
+[2022-06-07 17:29:11,862] {logging_mixin.py:115} INFO - [2022-06-07 17:29:11,862] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:29:14,179] {processor.py:651} INFO - DAG(s) dict_keys(['hero_info']) retrieved from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:29:14,349] {logging_mixin.py:115} INFO - [2022-06-07 17:29:14,348] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-07 17:29:14,378] {logging_mixin.py:115} INFO - [2022-06-07 17:29:14,378] {dag.py:2923} INFO - Setting next_dagrun for hero_info to 2022-06-07T04:00:00+00:00, run_after=2022-06-08T04:00:00+00:00
+[2022-06-07 17:29:14,471] {processor.py:161} INFO - Processing /opt/airflow/dags/ingest_heroes.py took 2.633 seconds
+[2022-06-07 17:29:44,551] {processor.py:153} INFO - Started process (PID=71) to work on /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:29:44,555] {processor.py:641} INFO - Processing file /opt/airflow/dags/ingest_heroes.py for tasks to queue
+[2022-06-07 17:29:44,556] {logging_mixin.py:115} INFO - [2022-06-07 17:29:44,556] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:29:45,189] {processor.py:651} INFO - DAG(s) dict_keys(['hero_info']) retrieved from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:29:45,244] {logging_mixin.py:115} INFO - [2022-06-07 17:29:45,243] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-07 17:29:45,262] {logging_mixin.py:115} INFO - [2022-06-07 17:29:45,262] {dag.py:2923} INFO - Setting next_dagrun for hero_info to 2022-06-07T04:00:00+00:00, run_after=2022-06-08T04:00:00+00:00
+[2022-06-07 17:29:45,274] {processor.py:161} INFO - Processing /opt/airflow/dags/ingest_heroes.py took 0.726 seconds
+[2022-06-07 17:30:15,339] {processor.py:153} INFO - Started process (PID=87) to work on /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:30:15,342] {processor.py:641} INFO - Processing file /opt/airflow/dags/ingest_heroes.py for tasks to queue
+[2022-06-07 17:30:15,343] {logging_mixin.py:115} INFO - [2022-06-07 17:30:15,343] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:30:15,981] {processor.py:651} INFO - DAG(s) dict_keys(['hero_info']) retrieved from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:30:16,002] {logging_mixin.py:115} INFO - [2022-06-07 17:30:16,002] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-07 17:30:16,021] {logging_mixin.py:115} INFO - [2022-06-07 17:30:16,021] {dag.py:2923} INFO - Setting next_dagrun for hero_info to 2022-06-07T04:00:00+00:00, run_after=2022-06-08T04:00:00+00:00
+[2022-06-07 17:30:16,031] {processor.py:161} INFO - Processing /opt/airflow/dags/ingest_heroes.py took 0.697 seconds
+[2022-06-07 17:30:46,096] {processor.py:153} INFO - Started process (PID=111) to work on /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:30:46,097] {processor.py:641} INFO - Processing file /opt/airflow/dags/ingest_heroes.py for tasks to queue
+[2022-06-07 17:30:46,098] {logging_mixin.py:115} INFO - [2022-06-07 17:30:46,098] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:30:46,733] {processor.py:651} INFO - DAG(s) dict_keys(['hero_info']) retrieved from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:30:46,756] {logging_mixin.py:115} INFO - [2022-06-07 17:30:46,755] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-07 17:30:46,776] {logging_mixin.py:115} INFO - [2022-06-07 17:30:46,776] {dag.py:2923} INFO - Setting next_dagrun for hero_info to 2022-06-07T04:00:00+00:00, run_after=2022-06-08T04:00:00+00:00
+[2022-06-07 17:30:46,785] {processor.py:161} INFO - Processing /opt/airflow/dags/ingest_heroes.py took 0.695 seconds
+[2022-06-07 17:31:16,871] {processor.py:153} INFO - Started process (PID=134) to work on /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:31:16,872] {processor.py:641} INFO - Processing file /opt/airflow/dags/ingest_heroes.py for tasks to queue
+[2022-06-07 17:31:16,873] {logging_mixin.py:115} INFO - [2022-06-07 17:31:16,873] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:31:17,504] {processor.py:651} INFO - DAG(s) dict_keys(['hero_info']) retrieved from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:31:17,557] {logging_mixin.py:115} INFO - [2022-06-07 17:31:17,556] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-07 17:31:17,574] {logging_mixin.py:115} INFO - [2022-06-07 17:31:17,574] {dag.py:2923} INFO - Setting next_dagrun for hero_info to 2022-06-07T04:00:00+00:00, run_after=2022-06-08T04:00:00+00:00
+[2022-06-07 17:31:17,586] {processor.py:161} INFO - Processing /opt/airflow/dags/ingest_heroes.py took 0.719 seconds
+[2022-06-07 17:31:47,651] {processor.py:153} INFO - Started process (PID=157) to work on /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:31:47,652] {processor.py:641} INFO - Processing file /opt/airflow/dags/ingest_heroes.py for tasks to queue
+[2022-06-07 17:31:47,653] {logging_mixin.py:115} INFO - [2022-06-07 17:31:47,653] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:31:48,579] {processor.py:651} INFO - DAG(s) dict_keys(['hero_info']) retrieved from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:31:48,648] {logging_mixin.py:115} INFO - [2022-06-07 17:31:48,648] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-07 17:31:48,666] {logging_mixin.py:115} INFO - [2022-06-07 17:31:48,666] {dag.py:2923} INFO - Setting next_dagrun for hero_info to 2022-06-07T04:00:00+00:00, run_after=2022-06-08T04:00:00+00:00
+[2022-06-07 17:31:48,678] {processor.py:161} INFO - Processing /opt/airflow/dags/ingest_heroes.py took 1.033 seconds
+[2022-06-07 17:32:18,724] {processor.py:153} INFO - Started process (PID=173) to work on /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:32:18,728] {processor.py:641} INFO - Processing file /opt/airflow/dags/ingest_heroes.py for tasks to queue
+[2022-06-07 17:32:18,729] {logging_mixin.py:115} INFO - [2022-06-07 17:32:18,729] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:32:19,360] {processor.py:651} INFO - DAG(s) dict_keys(['hero_info']) retrieved from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:32:19,442] {logging_mixin.py:115} INFO - [2022-06-07 17:32:19,442] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-07 17:32:19,470] {logging_mixin.py:115} INFO - [2022-06-07 17:32:19,469] {dag.py:2923} INFO - Setting next_dagrun for hero_info to 2022-06-07T04:00:00+00:00, run_after=2022-06-08T04:00:00+00:00
+[2022-06-07 17:32:19,486] {processor.py:161} INFO - Processing /opt/airflow/dags/ingest_heroes.py took 0.766 seconds
+[2022-06-07 17:32:49,581] {processor.py:153} INFO - Started process (PID=197) to work on /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:32:49,582] {processor.py:641} INFO - Processing file /opt/airflow/dags/ingest_heroes.py for tasks to queue
+[2022-06-07 17:32:49,583] {logging_mixin.py:115} INFO - [2022-06-07 17:32:49,583] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:32:50,212] {processor.py:651} INFO - DAG(s) dict_keys(['hero_info']) retrieved from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:32:50,234] {logging_mixin.py:115} INFO - [2022-06-07 17:32:50,234] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-07 17:32:50,254] {logging_mixin.py:115} INFO - [2022-06-07 17:32:50,254] {dag.py:2923} INFO - Setting next_dagrun for hero_info to 2022-06-07T04:00:00+00:00, run_after=2022-06-08T04:00:00+00:00
+[2022-06-07 17:32:50,264] {processor.py:161} INFO - Processing /opt/airflow/dags/ingest_heroes.py took 0.687 seconds
+[2022-06-07 17:33:20,331] {processor.py:153} INFO - Started process (PID=221) to work on /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:33:20,333] {processor.py:641} INFO - Processing file /opt/airflow/dags/ingest_heroes.py for tasks to queue
+[2022-06-07 17:33:20,334] {logging_mixin.py:115} INFO - [2022-06-07 17:33:20,333] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:33:20,961] {processor.py:651} INFO - DAG(s) dict_keys(['hero_info']) retrieved from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:33:20,983] {logging_mixin.py:115} INFO - [2022-06-07 17:33:20,983] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-07 17:33:21,002] {logging_mixin.py:115} INFO - [2022-06-07 17:33:21,002] {dag.py:2923} INFO - Setting next_dagrun for hero_info to 2022-06-07T04:00:00+00:00, run_after=2022-06-08T04:00:00+00:00
+[2022-06-07 17:33:21,012] {processor.py:161} INFO - Processing /opt/airflow/dags/ingest_heroes.py took 0.685 seconds
+[2022-06-07 17:33:51,074] {processor.py:153} INFO - Started process (PID=238) to work on /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:33:51,075] {processor.py:641} INFO - Processing file /opt/airflow/dags/ingest_heroes.py for tasks to queue
+[2022-06-07 17:33:51,076] {logging_mixin.py:115} INFO - [2022-06-07 17:33:51,076] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:33:51,727] {processor.py:651} INFO - DAG(s) dict_keys(['hero_info']) retrieved from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:33:51,749] {logging_mixin.py:115} INFO - [2022-06-07 17:33:51,749] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-07 17:33:51,769] {logging_mixin.py:115} INFO - [2022-06-07 17:33:51,769] {dag.py:2923} INFO - Setting next_dagrun for hero_info to 2022-06-07T04:00:00+00:00, run_after=2022-06-08T04:00:00+00:00
+[2022-06-07 17:33:51,781] {processor.py:161} INFO - Processing /opt/airflow/dags/ingest_heroes.py took 0.712 seconds
+[2022-06-07 17:34:21,880] {processor.py:153} INFO - Started process (PID=261) to work on /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:34:21,885] {processor.py:641} INFO - Processing file /opt/airflow/dags/ingest_heroes.py for tasks to queue
+[2022-06-07 17:34:21,886] {logging_mixin.py:115} INFO - [2022-06-07 17:34:21,886] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:34:22,523] {processor.py:651} INFO - DAG(s) dict_keys(['hero_info']) retrieved from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:34:22,582] {logging_mixin.py:115} INFO - [2022-06-07 17:34:22,582] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-07 17:34:22,608] {logging_mixin.py:115} INFO - [2022-06-07 17:34:22,607] {dag.py:2923} INFO - Setting next_dagrun for hero_info to 2022-06-07T04:00:00+00:00, run_after=2022-06-08T04:00:00+00:00
+[2022-06-07 17:34:22,620] {processor.py:161} INFO - Processing /opt/airflow/dags/ingest_heroes.py took 0.745 seconds
+[2022-06-07 17:34:52,688] {processor.py:153} INFO - Started process (PID=285) to work on /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:34:52,691] {processor.py:641} INFO - Processing file /opt/airflow/dags/ingest_heroes.py for tasks to queue
+[2022-06-07 17:34:52,692] {logging_mixin.py:115} INFO - [2022-06-07 17:34:52,692] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:34:53,369] {processor.py:651} INFO - DAG(s) dict_keys(['hero_info']) retrieved from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:34:53,392] {logging_mixin.py:115} INFO - [2022-06-07 17:34:53,392] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-07 17:34:53,412] {logging_mixin.py:115} INFO - [2022-06-07 17:34:53,412] {dag.py:2923} INFO - Setting next_dagrun for hero_info to 2022-06-07T04:00:00+00:00, run_after=2022-06-08T04:00:00+00:00
+[2022-06-07 17:34:53,422] {processor.py:161} INFO - Processing /opt/airflow/dags/ingest_heroes.py took 0.738 seconds
+[2022-06-07 17:35:23,483] {processor.py:153} INFO - Started process (PID=308) to work on /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:35:23,484] {processor.py:641} INFO - Processing file /opt/airflow/dags/ingest_heroes.py for tasks to queue
+[2022-06-07 17:35:23,485] {logging_mixin.py:115} INFO - [2022-06-07 17:35:23,485] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:35:24,220] {processor.py:651} INFO - DAG(s) dict_keys(['hero_info']) retrieved from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:35:24,243] {logging_mixin.py:115} INFO - [2022-06-07 17:35:24,243] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-07 17:35:24,263] {logging_mixin.py:115} INFO - [2022-06-07 17:35:24,263] {dag.py:2923} INFO - Setting next_dagrun for hero_info to 2022-06-07T04:00:00+00:00, run_after=2022-06-08T04:00:00+00:00
+[2022-06-07 17:35:24,273] {processor.py:161} INFO - Processing /opt/airflow/dags/ingest_heroes.py took 0.794 seconds
+[2022-06-07 17:35:54,317] {processor.py:153} INFO - Started process (PID=323) to work on /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:35:54,317] {processor.py:641} INFO - Processing file /opt/airflow/dags/ingest_heroes.py for tasks to queue
+[2022-06-07 17:35:54,318] {logging_mixin.py:115} INFO - [2022-06-07 17:35:54,318] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:35:54,960] {processor.py:651} INFO - DAG(s) dict_keys(['hero_info']) retrieved from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:35:54,983] {logging_mixin.py:115} INFO - [2022-06-07 17:35:54,982] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-07 17:35:55,002] {logging_mixin.py:115} INFO - [2022-06-07 17:35:55,002] {dag.py:2923} INFO - Setting next_dagrun for hero_info to 2022-06-07T04:00:00+00:00, run_after=2022-06-08T04:00:00+00:00
+[2022-06-07 17:35:55,013] {processor.py:161} INFO - Processing /opt/airflow/dags/ingest_heroes.py took 0.700 seconds
+[2022-06-07 17:36:25,107] {processor.py:153} INFO - Started process (PID=348) to work on /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:36:25,112] {processor.py:641} INFO - Processing file /opt/airflow/dags/ingest_heroes.py for tasks to queue
+[2022-06-07 17:36:25,113] {logging_mixin.py:115} INFO - [2022-06-07 17:36:25,112] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:36:25,914] {processor.py:651} INFO - DAG(s) dict_keys(['hero_info']) retrieved from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:36:25,938] {logging_mixin.py:115} INFO - [2022-06-07 17:36:25,938] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-07 17:36:25,961] {logging_mixin.py:115} INFO - [2022-06-07 17:36:25,961] {dag.py:2923} INFO - Setting next_dagrun for hero_info to 2022-06-07T04:00:00+00:00, run_after=2022-06-08T04:00:00+00:00
+[2022-06-07 17:36:25,973] {processor.py:161} INFO - Processing /opt/airflow/dags/ingest_heroes.py took 0.872 seconds
+[2022-06-07 17:36:56,043] {processor.py:153} INFO - Started process (PID=370) to work on /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:36:56,044] {processor.py:641} INFO - Processing file /opt/airflow/dags/ingest_heroes.py for tasks to queue
+[2022-06-07 17:36:56,044] {logging_mixin.py:115} INFO - [2022-06-07 17:36:56,044] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:36:56,711] {processor.py:651} INFO - DAG(s) dict_keys(['hero_info']) retrieved from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:36:56,735] {logging_mixin.py:115} INFO - [2022-06-07 17:36:56,734] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-07 17:36:56,756] {logging_mixin.py:115} INFO - [2022-06-07 17:36:56,755] {dag.py:2923} INFO - Setting next_dagrun for hero_info to 2022-06-07T04:00:00+00:00, run_after=2022-06-08T04:00:00+00:00
+[2022-06-07 17:36:56,766] {processor.py:161} INFO - Processing /opt/airflow/dags/ingest_heroes.py took 0.727 seconds
+[2022-06-07 17:37:26,834] {processor.py:153} INFO - Started process (PID=387) to work on /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:37:26,835] {processor.py:641} INFO - Processing file /opt/airflow/dags/ingest_heroes.py for tasks to queue
+[2022-06-07 17:37:26,836] {logging_mixin.py:115} INFO - [2022-06-07 17:37:26,835] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:37:27,595] {processor.py:651} INFO - DAG(s) dict_keys(['hero_info']) retrieved from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:37:27,654] {logging_mixin.py:115} INFO - [2022-06-07 17:37:27,654] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-07 17:37:27,674] {logging_mixin.py:115} INFO - [2022-06-07 17:37:27,674] {dag.py:2923} INFO - Setting next_dagrun for hero_info to 2022-06-07T04:00:00+00:00, run_after=2022-06-08T04:00:00+00:00
+[2022-06-07 17:37:27,687] {processor.py:161} INFO - Processing /opt/airflow/dags/ingest_heroes.py took 0.858 seconds
+[2022-06-07 17:37:57,757] {processor.py:153} INFO - Started process (PID=410) to work on /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:37:57,759] {processor.py:641} INFO - Processing file /opt/airflow/dags/ingest_heroes.py for tasks to queue
+[2022-06-07 17:37:57,760] {logging_mixin.py:115} INFO - [2022-06-07 17:37:57,759] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:37:58,409] {processor.py:651} INFO - DAG(s) dict_keys(['hero_info']) retrieved from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:37:58,464] {logging_mixin.py:115} INFO - [2022-06-07 17:37:58,464] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-07 17:37:58,483] {logging_mixin.py:115} INFO - [2022-06-07 17:37:58,482] {dag.py:2923} INFO - Setting next_dagrun for hero_info to 2022-06-07T04:00:00+00:00, run_after=2022-06-08T04:00:00+00:00
+[2022-06-07 17:37:58,500] {processor.py:161} INFO - Processing /opt/airflow/dags/ingest_heroes.py took 0.747 seconds
+[2022-06-07 17:38:28,595] {processor.py:153} INFO - Started process (PID=433) to work on /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:38:28,597] {processor.py:641} INFO - Processing file /opt/airflow/dags/ingest_heroes.py for tasks to queue
+[2022-06-07 17:38:28,598] {logging_mixin.py:115} INFO - [2022-06-07 17:38:28,598] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:38:29,237] {processor.py:651} INFO - DAG(s) dict_keys(['hero_info']) retrieved from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:38:29,260] {logging_mixin.py:115} INFO - [2022-06-07 17:38:29,259] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-07 17:38:29,279] {logging_mixin.py:115} INFO - [2022-06-07 17:38:29,279] {dag.py:2923} INFO - Setting next_dagrun for hero_info to 2022-06-07T04:00:00+00:00, run_after=2022-06-08T04:00:00+00:00
+[2022-06-07 17:38:29,289] {processor.py:161} INFO - Processing /opt/airflow/dags/ingest_heroes.py took 0.698 seconds
+[2022-06-07 17:38:59,352] {processor.py:153} INFO - Started process (PID=456) to work on /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:38:59,352] {processor.py:641} INFO - Processing file /opt/airflow/dags/ingest_heroes.py for tasks to queue
+[2022-06-07 17:38:59,353] {logging_mixin.py:115} INFO - [2022-06-07 17:38:59,353] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:39:00,005] {processor.py:651} INFO - DAG(s) dict_keys(['hero_info']) retrieved from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:39:00,033] {logging_mixin.py:115} INFO - [2022-06-07 17:39:00,033] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-07 17:39:00,054] {logging_mixin.py:115} INFO - [2022-06-07 17:39:00,053] {dag.py:2923} INFO - Setting next_dagrun for hero_info to 2022-06-07T04:00:00+00:00, run_after=2022-06-08T04:00:00+00:00
+[2022-06-07 17:39:00,064] {processor.py:161} INFO - Processing /opt/airflow/dags/ingest_heroes.py took 0.716 seconds
+[2022-06-07 17:39:30,125] {processor.py:153} INFO - Started process (PID=472) to work on /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:39:30,136] {processor.py:641} INFO - Processing file /opt/airflow/dags/ingest_heroes.py for tasks to queue
+[2022-06-07 17:39:30,137] {logging_mixin.py:115} INFO - [2022-06-07 17:39:30,137] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:39:30,808] {processor.py:651} INFO - DAG(s) dict_keys(['hero_info']) retrieved from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:39:30,862] {logging_mixin.py:115} INFO - [2022-06-07 17:39:30,861] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-07 17:39:30,880] {logging_mixin.py:115} INFO - [2022-06-07 17:39:30,880] {dag.py:2923} INFO - Setting next_dagrun for hero_info to 2022-06-07T04:00:00+00:00, run_after=2022-06-08T04:00:00+00:00
+[2022-06-07 17:39:30,893] {processor.py:161} INFO - Processing /opt/airflow/dags/ingest_heroes.py took 0.773 seconds
+[2022-06-07 17:40:00,984] {processor.py:153} INFO - Started process (PID=495) to work on /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:40:00,989] {processor.py:641} INFO - Processing file /opt/airflow/dags/ingest_heroes.py for tasks to queue
+[2022-06-07 17:40:00,989] {logging_mixin.py:115} INFO - [2022-06-07 17:40:00,989] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:40:01,646] {processor.py:651} INFO - DAG(s) dict_keys(['hero_info']) retrieved from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:40:01,670] {logging_mixin.py:115} INFO - [2022-06-07 17:40:01,669] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-07 17:40:01,692] {logging_mixin.py:115} INFO - [2022-06-07 17:40:01,692] {dag.py:2923} INFO - Setting next_dagrun for hero_info to 2022-06-07T04:00:00+00:00, run_after=2022-06-08T04:00:00+00:00
+[2022-06-07 17:40:01,704] {processor.py:161} INFO - Processing /opt/airflow/dags/ingest_heroes.py took 0.723 seconds
+[2022-06-07 17:40:31,769] {processor.py:153} INFO - Started process (PID=518) to work on /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:40:31,771] {processor.py:641} INFO - Processing file /opt/airflow/dags/ingest_heroes.py for tasks to queue
+[2022-06-07 17:40:31,772] {logging_mixin.py:115} INFO - [2022-06-07 17:40:31,771] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:40:32,437] {processor.py:651} INFO - DAG(s) dict_keys(['hero_info']) retrieved from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:40:32,460] {logging_mixin.py:115} INFO - [2022-06-07 17:40:32,460] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-07 17:40:32,481] {logging_mixin.py:115} INFO - [2022-06-07 17:40:32,480] {dag.py:2923} INFO - Setting next_dagrun for hero_info to 2022-06-07T04:00:00+00:00, run_after=2022-06-08T04:00:00+00:00
+[2022-06-07 17:40:32,490] {processor.py:161} INFO - Processing /opt/airflow/dags/ingest_heroes.py took 0.726 seconds
+[2022-06-07 17:41:02,554] {processor.py:153} INFO - Started process (PID=534) to work on /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:41:02,558] {processor.py:641} INFO - Processing file /opt/airflow/dags/ingest_heroes.py for tasks to queue
+[2022-06-07 17:41:02,559] {logging_mixin.py:115} INFO - [2022-06-07 17:41:02,559] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:41:03,234] {processor.py:651} INFO - DAG(s) dict_keys(['hero_info']) retrieved from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:41:03,265] {logging_mixin.py:115} INFO - [2022-06-07 17:41:03,264] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-07 17:41:03,287] {logging_mixin.py:115} INFO - [2022-06-07 17:41:03,287] {dag.py:2923} INFO - Setting next_dagrun for hero_info to 2022-06-07T04:00:00+00:00, run_after=2022-06-08T04:00:00+00:00
+[2022-06-07 17:41:03,298] {processor.py:161} INFO - Processing /opt/airflow/dags/ingest_heroes.py took 0.750 seconds
+[2022-06-07 17:41:33,358] {processor.py:153} INFO - Started process (PID=557) to work on /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:41:33,359] {processor.py:641} INFO - Processing file /opt/airflow/dags/ingest_heroes.py for tasks to queue
+[2022-06-07 17:41:33,360] {logging_mixin.py:115} INFO - [2022-06-07 17:41:33,360] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:41:34,034] {processor.py:651} INFO - DAG(s) dict_keys(['hero_info']) retrieved from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:41:34,057] {logging_mixin.py:115} INFO - [2022-06-07 17:41:34,057] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-07 17:41:34,076] {logging_mixin.py:115} INFO - [2022-06-07 17:41:34,076] {dag.py:2923} INFO - Setting next_dagrun for hero_info to 2022-06-07T04:00:00+00:00, run_after=2022-06-08T04:00:00+00:00
+[2022-06-07 17:41:34,086] {processor.py:161} INFO - Processing /opt/airflow/dags/ingest_heroes.py took 0.732 seconds
+[2022-06-07 17:42:04,177] {processor.py:153} INFO - Started process (PID=581) to work on /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:42:04,179] {processor.py:641} INFO - Processing file /opt/airflow/dags/ingest_heroes.py for tasks to queue
+[2022-06-07 17:42:04,180] {logging_mixin.py:115} INFO - [2022-06-07 17:42:04,180] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:42:04,845] {processor.py:651} INFO - DAG(s) dict_keys(['hero_info']) retrieved from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:42:04,868] {logging_mixin.py:115} INFO - [2022-06-07 17:42:04,868] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-07 17:42:04,888] {logging_mixin.py:115} INFO - [2022-06-07 17:42:04,888] {dag.py:2923} INFO - Setting next_dagrun for hero_info to 2022-06-07T04:00:00+00:00, run_after=2022-06-08T04:00:00+00:00
+[2022-06-07 17:42:04,900] {processor.py:161} INFO - Processing /opt/airflow/dags/ingest_heroes.py took 0.726 seconds
+[2022-06-07 17:42:34,962] {processor.py:153} INFO - Started process (PID=606) to work on /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:42:34,966] {processor.py:641} INFO - Processing file /opt/airflow/dags/ingest_heroes.py for tasks to queue
+[2022-06-07 17:42:34,966] {logging_mixin.py:115} INFO - [2022-06-07 17:42:34,966] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:42:35,633] {processor.py:651} INFO - DAG(s) dict_keys(['hero_info']) retrieved from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:42:35,656] {logging_mixin.py:115} INFO - [2022-06-07 17:42:35,656] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-07 17:42:35,675] {logging_mixin.py:115} INFO - [2022-06-07 17:42:35,675] {dag.py:2923} INFO - Setting next_dagrun for hero_info to 2022-06-07T04:00:00+00:00, run_after=2022-06-08T04:00:00+00:00
+[2022-06-07 17:42:35,686] {processor.py:161} INFO - Processing /opt/airflow/dags/ingest_heroes.py took 0.728 seconds
+[2022-06-07 17:43:05,749] {processor.py:153} INFO - Started process (PID=623) to work on /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:43:05,751] {processor.py:641} INFO - Processing file /opt/airflow/dags/ingest_heroes.py for tasks to queue
+[2022-06-07 17:43:05,752] {logging_mixin.py:115} INFO - [2022-06-07 17:43:05,751] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:43:06,407] {processor.py:651} INFO - DAG(s) dict_keys(['hero_info']) retrieved from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:43:06,429] {logging_mixin.py:115} INFO - [2022-06-07 17:43:06,429] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-07 17:43:06,449] {logging_mixin.py:115} INFO - [2022-06-07 17:43:06,449] {dag.py:2923} INFO - Setting next_dagrun for hero_info to 2022-06-07T04:00:00+00:00, run_after=2022-06-08T04:00:00+00:00
+[2022-06-07 17:43:06,458] {processor.py:161} INFO - Processing /opt/airflow/dags/ingest_heroes.py took 0.713 seconds
+[2022-06-07 17:43:36,550] {processor.py:153} INFO - Started process (PID=647) to work on /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:43:36,552] {processor.py:641} INFO - Processing file /opt/airflow/dags/ingest_heroes.py for tasks to queue
+[2022-06-07 17:43:36,553] {logging_mixin.py:115} INFO - [2022-06-07 17:43:36,553] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:43:37,206] {processor.py:651} INFO - DAG(s) dict_keys(['hero_info']) retrieved from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:43:37,229] {logging_mixin.py:115} INFO - [2022-06-07 17:43:37,229] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-07 17:43:37,250] {logging_mixin.py:115} INFO - [2022-06-07 17:43:37,250] {dag.py:2923} INFO - Setting next_dagrun for hero_info to 2022-06-07T04:00:00+00:00, run_after=2022-06-08T04:00:00+00:00
+[2022-06-07 17:43:37,261] {processor.py:161} INFO - Processing /opt/airflow/dags/ingest_heroes.py took 0.715 seconds
+[2022-06-07 17:44:07,327] {processor.py:153} INFO - Started process (PID=671) to work on /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:44:07,329] {processor.py:641} INFO - Processing file /opt/airflow/dags/ingest_heroes.py for tasks to queue
+[2022-06-07 17:44:07,330] {logging_mixin.py:115} INFO - [2022-06-07 17:44:07,330] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:44:07,973] {processor.py:651} INFO - DAG(s) dict_keys(['hero_info']) retrieved from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:44:07,997] {logging_mixin.py:115} INFO - [2022-06-07 17:44:07,996] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-07 17:44:08,016] {logging_mixin.py:115} INFO - [2022-06-07 17:44:08,016] {dag.py:2923} INFO - Setting next_dagrun for hero_info to 2022-06-07T04:00:00+00:00, run_after=2022-06-08T04:00:00+00:00
+[2022-06-07 17:44:08,026] {processor.py:161} INFO - Processing /opt/airflow/dags/ingest_heroes.py took 0.704 seconds
+[2022-06-07 17:44:38,112] {processor.py:153} INFO - Started process (PID=686) to work on /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:44:38,113] {processor.py:641} INFO - Processing file /opt/airflow/dags/ingest_heroes.py for tasks to queue
+[2022-06-07 17:44:38,114] {logging_mixin.py:115} INFO - [2022-06-07 17:44:38,114] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:44:38,856] {processor.py:651} INFO - DAG(s) dict_keys(['hero_info']) retrieved from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:44:38,879] {logging_mixin.py:115} INFO - [2022-06-07 17:44:38,878] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-07 17:44:38,900] {logging_mixin.py:115} INFO - [2022-06-07 17:44:38,900] {dag.py:2923} INFO - Setting next_dagrun for hero_info to 2022-06-07T04:00:00+00:00, run_after=2022-06-08T04:00:00+00:00
+[2022-06-07 17:44:38,911] {processor.py:161} INFO - Processing /opt/airflow/dags/ingest_heroes.py took 0.803 seconds
+[2022-06-07 17:45:08,976] {processor.py:153} INFO - Started process (PID=711) to work on /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:45:08,977] {processor.py:641} INFO - Processing file /opt/airflow/dags/ingest_heroes.py for tasks to queue
+[2022-06-07 17:45:08,978] {logging_mixin.py:115} INFO - [2022-06-07 17:45:08,978] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:45:09,664] {processor.py:651} INFO - DAG(s) dict_keys(['hero_info']) retrieved from /opt/airflow/dags/ingest_heroes.py
+[2022-06-07 17:45:09,696] {logging_mixin.py:115} INFO - [2022-06-07 17:45:09,696] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-07 17:45:09,726] {logging_mixin.py:115} INFO - [2022-06-07 17:45:09,726] {dag.py:2923} INFO - Setting next_dagrun for hero_info to 2022-06-07T04:00:00+00:00, run_after=2022-06-08T04:00:00+00:00
+[2022-06-07 17:45:09,739] {processor.py:161} INFO - Processing /opt/airflow/dags/ingest_heroes.py took 0.767 seconds
