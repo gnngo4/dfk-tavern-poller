@@ -1,0 +1,19 @@
+# terraform
+terraform/.terraform.lock.hcl
+terraform/terraform.tfstate terraform/terraform.tfstate.backup
+
+# pipeline
+pipeline/dfk_tavern_tracker
+pipeline/streamer/__pycache__/
+pipeline/streamer/dfk_tavern_tracker/
+pipeline/streamer/transaction_processor-data/
+
+# dfk_tavern_tracker
+dfk_tavern_tracker/api_querier/__pycache__/
+dfk_tavern_tracker/blockchain_streamer/__pycache__/
+
+# airflow
+airflow/dags/dfk_tavern_tracker/
+airflow/dags/__pycache__/
+airflow/logs/
+airflow/plugins/
