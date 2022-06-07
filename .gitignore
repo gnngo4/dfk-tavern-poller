@@ -2,6 +2,7 @@
 terraform/.terraform.lock.hcl
 terraform/terraform.tfstate
 terraform/terraform.tfstate.backup
+terraform/.terraform
 
 # pipeline
 pipeline/dfk_tavern_tracker
