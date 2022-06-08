@@ -95,6 +95,10 @@ schema = [
         {"name":"network","type":"STRING","description":""},
         {"name":"originRealm","type":"STRING","description":""},
         {"name":"timestamp","type":"TIMESTAMP","description":""},
+        {"name":"score_mining_lvl100","type":"FLOAT","description":""},
+        {"name":"score_gardening_lvl100","type":"FLOAT","description":""},
+        {"name":"score_fishing_lvl100","type":"FLOAT","description":""},
+        {"name":"score_foraging_lvl100","type":"FLOAT","description":""},
         ]
 
 def get_date_string():
@@ -145,6 +149,8 @@ def hero_api_call(query: str):
 @task
 def format_to_parquet(json_data: dict):
 
+    from dfk_tavern_tracker.preprocess import preprocess
+
     from glom import glom
     from datetime import datetime
     import pandas as pd
@@ -165,6 +171,8 @@ def format_to_parquet(json_data: dict):
                 ),axis=1
             )
     df['timestamp'] = pd.Series([datetime.now()] * df.shape[0])
+    # Score hero professions with heuristics
+    df = preprocess.score_professions(df)
     df.to_parquet(filename)
 
     return filename
