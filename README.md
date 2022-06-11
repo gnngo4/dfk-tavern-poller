@@ -147,3 +147,14 @@ docker-compose up airflow-init
 ```
 docker-compose up
 ```
+
+### Set-up Kafka streaming 
+1. Go to `cd ~/dfk-tavern-poller/pipeline`
+2. Build docker image:
+```
+docker-compose build
+```
+3. Run:
+```
+docker-compose up
+```
