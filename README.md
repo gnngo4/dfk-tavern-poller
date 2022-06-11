@@ -42,7 +42,7 @@ The following requirements are needed to reproduce the project:
 
 Create an environment variable called `GOOGLE_APPLICATION_CREDENTIALS` and add it to `.bashrc`:
 ```
-echo 'export GOOGLE_APPLICATION_CREDENTIALS="<path/to/google_credentials.json>" > ~/.bashrc'
+echo 'export GOOGLE_APPLICATION_CREDENTIALS="<path/to/google_credentials.json>"' >> ~/.bashrc
 source ~/.bashrc
 ```
 
@@ -105,10 +105,45 @@ sudo apt-get update && sudo apt-get install terraform
 **Google credentials**
 Add `google_credentials.json` to `$HOME/.google/credentials/` and set it as an environment variable.
 ```
-echo 'export GOOGLE_APPLICATION_CREDENTIALS="<path/to/google_credentials.json>" > ~/.bashrc'
+echo 'export GOOGLE_APPLICATION_CREDENTIALS="<path/to/google_credentials.json>"' >> ~/.bashrc
 source ~/.bashrc
 ```
 **Clone the repository**
 ```
 git clone https://github.com/gnngo4/dfk-tavern-poller.git
+```
+
+### Set-up project infrastructure with Terraform
+1. Go to `cd ~/dfk-tavern-poller/terraform/`
+2. Open `variables.tf` and change `variable "region" to your location.
+3. Initialize Terraform:
+```
+terraform init
+```
+5. Plan infrastructure to create a Cloud Storage bucket and a BigQuery dataset:
+```
+terraform plan
+```
+7. Apply plans:
+```
+terraform apply
+```
+
+### Set-up Airflow 
+1. Go to `cd ~/dfk-tavern-poller/airflow`
+2. Open `.env` and change the following:
+   - `AIRFLOW_UID` to the value  obtained from `echo -e "AIRFLOW_UID=$(id -u)"`
+   - `GCP_PROJECT_ID` to the Google Cloud project ID
+   - `GCP_GCS_BUCKET` to the name of the Cloud Storage bucket
+3. Build Airflow docker image:
+```
+docker-compose build
+```
+4. Initialize Airflow configs:
+```
+docker-compose up airflow-init
+```
+5. Run Airflow:
+```
+docker-compose up
 ```
