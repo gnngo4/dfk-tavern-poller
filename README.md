@@ -91,7 +91,7 @@ cd ~/bin
 wget ${URL} -O docker-compose
 chmod +x docker-compose
 cd ~
-echo 'export PATH="${HOME}/bin:${PATH}" > ~/.bashrc'
+echo 'export PATH="${HOME}/bin:${PATH}"' >> ~/.bashrc
 source ~/.bashrc
 # Test
 docker-compose version
