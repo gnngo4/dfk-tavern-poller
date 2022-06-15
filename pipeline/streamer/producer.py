@@ -65,7 +65,8 @@ def blockchain_streamer():
                             continue
                         else:
                             REPEATED_TRANSACTIONS.append(filtered_transaction.hex())
-                            REPEATED_TRANSACTIONS = REPEATED_TRANSACTIONS[40:]
+                            if len(REPEATED_TRANSACTIONS) > 40:
+                                REPEATED_TRANSACTIONS = REPEATED_TRANSACTIONS[1:]
 
                         # Submit transaction to kafka topic
                         try:

@@ -90,4 +90,6 @@ def score_professions(_df):
                 scores.append(score)
             _df[f"score_{_prof}_lvl{str(_sim_lvl).zfill(3)}"] = scores
 
+    print(n_rows)
+
     return _df

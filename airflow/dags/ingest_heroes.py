@@ -246,5 +246,5 @@ with DAG(
                         },
                     },
                 )
-
+    
     get_data >> create_bq_ext_table
